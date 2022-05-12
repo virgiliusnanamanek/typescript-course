@@ -14,8 +14,8 @@ function multiply(a, b) {
 const Add = (a, b) => {
     return a + b;
 };
-console.log(getString());
-console.log(getNumber());
-console.log(getNone());
-console.log(multiply(23, 7));
-console.log(Add(123, 754));
+//Default Parameter
+const fullName = (first, second = "Nana") => {
+    return first + " " + second;
+};
+console.log(fullName("Vicky"));
